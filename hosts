@@ -1,5 +1,6 @@
 #Example OSE on OSP Hosts file for use with DNSMasq
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost localhost.localdomain localhost6 localhost6.localdomain6                           
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 172.16.120.15 centralmw-osev3-mstr01.os1.phx2.redhat.com centralmw-osev3-mstr01
-#172.16.120.* centralmw-osev3-mstr01.os1.phx2.redhat.com centralmw-osev3-node01                                                     
+172.16.120.31 centralmw-osev3-node01.os1.phx2.redhat.com centralmw-osev3-node01
+172.16.120.35 centralmw-osev3-node02.os1.phx2.redhat.com centralmw-osev3-node02
