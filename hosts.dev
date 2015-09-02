@@ -1,0 +1,11 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+10.3.12.70	centralmw-osev3-mstr01.os1.phx2.redhat.com smoke-php-01.smoke-test01.cloudapps.os1.phx2.redhat.com guestbook.joes-guestbook.cloudapps.os1.phx2.redhat.com openshift3mlbparks.joes-mlbparks.cloudapps.os1.phx2.redhat.com mlbparks-http-route.joes-template.cloudapps.os1.phx2.redhat.com
+255.255.255.255	broadcasthost
+::1             localhost 
+fe80::1%lo0	localhost
