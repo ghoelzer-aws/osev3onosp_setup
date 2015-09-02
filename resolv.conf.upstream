@@ -1,0 +1,5 @@
+#example /etc/resolv.conf.upstream for use with dnsmasq
+#first nameserver should be IP of OSE Master or where dnsmasq is to run
+nameserver 172.16.120.15
+nameserver 8.8.8.8
+

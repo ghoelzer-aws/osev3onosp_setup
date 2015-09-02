@@ -1,0 +1,6 @@
+#oadm cli command to create default router on master in "infra" region
+oadm router default-router01 --replicas=1 \
+    --credentials='/etc/openshift/master/openshift-router.kubeconfig' \
+    --images='registry.access.redhat.com/openshift3/ose-${component}:${version}' \
+    --selector='region=infra' \
+    --service-account=router
