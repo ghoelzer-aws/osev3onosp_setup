@@ -20,9 +20,9 @@ yum install -y docker
 #Update docker /etc/sysconfig/docker to use insecure reqistry (only for demo purposes, etc)
 sed -i.bak -e 's/^OPTIONS/#OPTIONS/' -e '/^#OPTIONS/a OPTIONS=--insecure-registry 172.30.0.0/16' /etc/sysconfig/docker
 #
-echo ********************************
-echo *
-echo * Basic OSE host setup complete, finalize docker storage and docker service setup before running quickstart
-echo *
-echo ********************************
+echo "********************************"
+echo "*"
+echo "* Basic OSE host setup complete, finalize docker storage and docker service setup before running quickstart"
+echo "*"
+echo "********************************"
 
